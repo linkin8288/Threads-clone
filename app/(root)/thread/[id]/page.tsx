@@ -5,6 +5,7 @@ import ThreadCard from "@/components/cards/ThreadCard";
 
 import { fetchUser } from "@/lib/actions/user.actions";
 import { fetchThreadById } from "@/lib/actions/thread.actions";
+import Comment from "@/components/forms/Comment";
 
 export const revalidate = 0;
 
@@ -35,11 +36,11 @@ async function page({ params }: { params: { id: string } }) {
       </div>
 
       <div className='mt-7'>
-        {/* <Comment
+        <Comment
           threadId={params.id}
           currentUserImg={user.imageUrl}
           currentUserId={JSON.stringify(userInfo._id)}
-        /> */}
+        />
       </div>
 
       <div className='mt-10'>

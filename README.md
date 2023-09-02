@@ -13,3 +13,5 @@
 13. Create PostThread page with thread.actions.ts, thread.model.ts and thread.ts files.
 14. Fetch Posts in the Home page, with simple pagination function.
 15. Create ThreadCard component
+16. Add Comment to each Post - Create Thread-id page and fetchThreadById function inside thead.actions.ts file.
+17. addCommentToThread to thread.actions.ts file
