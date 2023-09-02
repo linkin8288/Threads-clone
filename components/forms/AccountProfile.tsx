@@ -23,6 +23,7 @@ import { useUploadThing } from "@/lib/uploadthing";
 import { isBase64Image } from "@/lib/utils";
 
 import { UserValidation } from "@/lib/validations/user";
+import { updateUser } from "@/lib/actions/user.action";
 
 
 interface Props {
@@ -66,6 +67,7 @@ const AccountProfile = ({ user, btnTitle }: Props) => {
       }
     }
 
+    // update the user from backend
     await updateUser({
       name: values.name,
       path: pathname,
