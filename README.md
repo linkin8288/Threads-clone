@@ -7,5 +7,7 @@
 7. Create mongoose file to connect with Mongodb database and API key.
 8. Create actions, models file to organize the data.
 9. user.actions.ts
-10. Create updateUser function to connect DB inside AccountProfile.
+10. Create updateUser function inside user.action.ts file and AccountProfile file to connect DB
 11. Update the Uploadthing API Key
+12. Create fetchUser function inside user.action.ts file to fetch user
+13. Create PostThread page with thread.actions.ts, thread.model.ts and thread.ts files.
