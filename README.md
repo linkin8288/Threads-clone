@@ -15,3 +15,6 @@
 15. Create ThreadCard component
 16. Add Comment to each Post - Create Thread-id page and fetchThreadById function inside thead.actions.ts file.
 17. addCommentToThread to thread.actions.ts file
+18. Create user Profile page inside root
+19. Create fetchuserposts function inside user.actions.ts file
+20. ThreadTab component inside Profile page shows the user's history
