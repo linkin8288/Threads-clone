@@ -11,3 +11,5 @@
 11. Update the Uploadthing API Key
 12. Create fetchUser function inside user.action.ts file to fetch user
 13. Create PostThread page with thread.actions.ts, thread.model.ts and thread.ts files.
+14. Fetch Posts in the Home page, with simple pagination function.
+15. Create ThreadCard component

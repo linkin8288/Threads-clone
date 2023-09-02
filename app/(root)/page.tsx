@@ -1,16 +1,13 @@
 import { currentUser } from "@clerk/nextjs";
-import { redirect } from "next/navigation";
 
-import { fetchPosts } from "@/lib/actions/thread.actions"
 import ThreadCard from "@/components/cards/ThreadCard";
 
-async function Home() {
+import { fetchPosts } from "@/lib/actions/thread.actions";
 
-  const user = await currentUser();
-  if (!user) return null;
+export default async function Home() {
 
-  const result = await fetchPosts(1, 30);
-  // console.log(result);
+  const user = await currentUser()
+  const result = await fetchPosts(1,30);
 
   return (
     <>
@@ -38,7 +35,5 @@ async function Home() {
         )}
       </section>
     </>
-  )
+  );
 }
-
-export default Home;
