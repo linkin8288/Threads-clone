@@ -19,3 +19,4 @@
 19. Create fetchuserposts function inside user.actions.ts file
 20. ThreadTab component inside Profile page shows the user's history
 21. Create search page inside root, with fetchUsers function inside user.actions.ts file
+22. Create activity page inside root, with getActivity function inside user.actions.ts file
